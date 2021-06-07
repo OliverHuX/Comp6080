@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextButton Component renders with minimal props (snapshot) 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  >
+    OK
+  </span>
+</button>
+`;
+
+exports[`TextButton Component renders with provided button text (snapshot) 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label"
+  >
+    YES
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`TextPopup Component renders with minimal props (snapshot) 1`] = `null`;
+
+exports[`TextPopup Component renders with provided title (snapshot) 1`] = `null`;
+
+exports[`TextPopup Component renders with provided title and buttonText (snapshot) 1`] = `null`;
+
+exports[`TextPopup Component renders with provided title, buttonText and onclick function (snapshot) 1`] = `null`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Component renders with minimal props (snapshot) 1`] = `
+<h2
+  className="MuiTypography-root MuiTypography-h6 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+/>
+`;
+
+exports[`Title Component renders with props (snapshot) 1`] = `
+<h2
+  className="MuiTypography-root MuiTypography-h6 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+>
+  Sample title
+</h2>
+`;

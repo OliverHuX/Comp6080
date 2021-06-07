@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultTable Component renders with default title and data (snapshot) 1`] = `
+Array [
+  <h2
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+  >
+    Table
+  </h2>,
+  <table
+    className="MuiTable-root"
+    role={null}
+  >
+    <thead
+      className="MuiTableHead-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+        role={null}
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Rank
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Name
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Answered Correct
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="MuiTableBody-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          1
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          Alice
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          100
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          2
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          Ben
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          90
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          3
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          Cathy
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          80
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          4
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          Dan
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          70
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          5
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          Emily
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          60
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;
+
+exports[`ResultTable Component renders with minimal props (snapshot) 1`] = `
+Array [
+  <h2
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+  >
+    Table
+  </h2>,
+  <table
+    className="MuiTable-root"
+    role={null}
+  >
+    <thead
+      className="MuiTableHead-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+        role={null}
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Rank
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Name
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Answered Correct
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="MuiTableBody-root"
+      role={null}
+    />
+  </table>,
+]
+`;
+
+exports[`ResultTable Component renders with provided title and data (snapshot) 1`] = `
+Array [
+  <h2
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+  >
+    Rank Info
+  </h2>,
+  <table
+    className="MuiTable-root"
+    role={null}
+  >
+    <thead
+      className="MuiTableHead-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+        role={null}
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Rank
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Name
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Answered Correct
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="MuiTableBody-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          1
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          Alice
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          100
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          2
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          Ben
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          90
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          3
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          Cathy
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          80
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          4
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          Dan
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          70
+        </td>
+      </tr>
+      <tr
+        className="MuiTableRow-root"
+        role={null}
+      >
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          5
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          Emily
+        </td>
+        <td
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-body MuiTableCell-sizeSmall"
+        >
+          60
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;
+
+exports[`ResultTable Component renders with provided title with no data (snapshot) 1`] = `
+Array [
+  <h2
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+  >
+    Rank Info
+  </h2>,
+  <table
+    className="MuiTable-root"
+    role={null}
+  >
+    <thead
+      className="MuiTableHead-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+        role={null}
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Rank
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Name
+        </th>
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-sizeSmall"
+          scope="col"
+        >
+          Answered Correct
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="MuiTableBody-root"
+      role={null}
+    />
+  </table>,
+]
+`;

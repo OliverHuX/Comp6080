@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResultTable Component renders with minimal props (snapshot) 1`] = `
+Array [
+  <h2
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+  />,
+  <div
+    className="recharts-responsive-container"
+    style={
+      Object {
+        "height": "100%",
+        "maxHeight": undefined,
+        "minHeight": undefined,
+        "minWidth": undefined,
+        "width": "100%",
+      }
+    }
+  />,
+]
+`;
+
+exports[`ResultTable Component renders with title and data props (snapshot) 1`] = `
+Array [
+  <h2
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+  >
+    sample title
+  </h2>,
+  <div
+    className="recharts-responsive-container"
+    style={
+      Object {
+        "height": "100%",
+        "maxHeight": undefined,
+        "minHeight": undefined,
+        "minWidth": undefined,
+        "width": "100%",
+      }
+    }
+  />,
+]
+`;
+
+exports[`ResultTable Component renders with title props (snapshot) 1`] = `
+Array [
+  <h2
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-colorPrimary MuiTypography-gutterBottom"
+  >
+    sample title
+  </h2>,
+  <div
+    className="recharts-responsive-container"
+    style={
+      Object {
+        "height": "100%",
+        "maxHeight": undefined,
+        "minHeight": undefined,
+        "minWidth": undefined,
+        "width": "100%",
+      }
+    }
+  />,
+]
+`;

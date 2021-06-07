@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title Component renders with minimal props (snapshot) 1`] = `
+<h1
+  className="MuiTypography-root MuiTypography-h5 MuiTypography-colorPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
+>
+  Answer:
+  <br />
+</h1>
+`;
+
+exports[`Title Component renders with multiple data (snapshot) 1`] = `
+Array [
+  <h1
+    className="MuiTypography-root MuiTypography-h5 MuiTypography-colorPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
+  >
+    Answer:
+    <br />
+  </h1>,
+  <h1
+    className="MuiTypography-root MuiTypography-h5 MuiTypography-colorPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
+  >
+    answer1
+  </h1>,
+  <h1
+    className="MuiTypography-root MuiTypography-h5 MuiTypography-colorPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
+  >
+    answer4
+  </h1>,
+  <h1
+    className="MuiTypography-root MuiTypography-h5 MuiTypography-colorPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
+  >
+    answer6
+  </h1>,
+]
+`;
+
+exports[`Title Component renders with one data (snapshot) 1`] = `
+Array [
+  <h1
+    className="MuiTypography-root MuiTypography-h5 MuiTypography-colorPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
+  >
+    Answer:
+    <br />
+  </h1>,
+  <h1
+    className="MuiTypography-root MuiTypography-h5 MuiTypography-colorPrimary MuiTypography-gutterBottom MuiTypography-alignCenter"
+  >
+    answer1
+  </h1>,
+]
+`;
