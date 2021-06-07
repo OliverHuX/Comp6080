@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quickpic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- You can add your styles and scripts here -->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/provided.css" />
+    <script type="module" src="src/helpers.js"></script>
+    <script type="module" src="src/api.js"></script>
+    <script type="module" src="src/main.js"></script>
+    <!-- external library from https://www.w3schools.com/howto/howto_js_toggle_like.asp -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- This is an example app structure, you can modify this as much as you choose --> 
+    <header class="banner">
+        <h1>Quickpic</h1>
+        <ul class="nav">
+            <li class="nav-item">Item</li>
+            <li class="nav-item">Item</li>
+        </ul>
+    </header>
+    <main role="main" id="main">
+        <!-- app goes here --> 
+        <!-- error pop up screen -->
+        <div class="err-screen" id="error pad">
+            <div class="add-border">
+                <div class="make-centre">
+                    <h1 id="err"></h1>
+                </div>
+                <br>
+                <div class="make-centre" id='error-container'>
+                    <!-- <input class="close-button" type="button" id="close" name="close-btn" value="Close"> -->
+                </div>
+            </div>
+        </div>
+        <!-- login screen -->
+        <form class="centre" id="login pad">
+            <div class="make-centre">
+                <h2>Login</h2>
+            </div>
+            <div class="make-centre">
+                <label class="add-space">Username:</label>
+                <input type="text" id="username">
+            </div>
+            <br>
+            <div class="make-centre">
+                <label class="add-space">Password:</label>
+                <input type="password" id="password">
+            </div>
+            <br>
+            <div class="make-centre">
+                <label class="add-space">Confirm:</label>
+                <input class="addleft-margin-14px" type="password" id="confirm">
+            </div>
+            <br>
+            <br>
+            <div class="button-centre">
+                <input class="button-size" type="button" id="login" value="Submit">
+                <input class="button-size" type="button" id="register" value="Sign up">
+            </div>
+        </form>
+        <!-- register screen -->
+        <form class="register" id="register pad">
+            <div class="make-centre">
+                <h2>Sign up</h2>
+            </div>
+            <div class="make-centre">
+                <label class="add-space"><b>Username:</b></label>
+                <input type="text" id="new-username">
+            </div>
+            <br>
+            <div class="make-centre">
+                <label class="add-space"><b>Password:</b></label>
+                <input type="password" id="new-password">
+            </div>
+            <br>
+            <div class="make-centre">
+                <label class="add-space"><b>Confirm</b>:</label>
+                <input class="addleft-margin-14px" type="password" id="new-confirm">
+            </div>
+            <br>
+            <div class="make-centre">
+                <label class="add-space"><b>Email:</b></label>
+                <input class="addleft-margin-14px" type="email" id="email">
+            </div>
+            <br>
+            <div class="make-centre">
+                <label class="add-space"><b>Name:</b></label>
+                <input class="addleft-margin-14px" type="name" id="name">
+            </div>
+            <br>
+            <br>
+            <div class="button-centre">
+                <input class="submit-button" type="button" id="signin" value="Submit">
+            </div>
+            <div class="button-centre">
+                <input class="close-button" type="button" id="back-login" value="Back">
+            </div>
+        </form>
+        <!-- header -->
+        <!-- <div class="header" id="header pad"></div> -->
+        <!-- feed screen -->
+        <div class="feed" id="feed pad"></div>
+        <!-- module screen -->
+        <div class="modal" id="modal pad"></div>
+        <!-- user info -->
+        <div class="modal" id="user info"></div>
+        <!-- post detail -->
+        <div class="modal" id="post detail"></div>
+    </main>
+    <footer>
+        <p>&copy; Quickpic</p>
+    </footer>
+</body>
+</html>

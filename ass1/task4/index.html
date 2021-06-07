@@ -1,0 +1,72 @@
+<!-- written by XiaoHu z5223731 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Task4</title>
+        <script type="text/javascript" src="index.js" ></script>
+    </head>
+    <body>
+        <div id="input-form">
+            <form name="box">
+                <table border="1">
+                    <tr>
+                        <td>Street Name</td>
+                        <td>
+                            <input type="text" id="street-name" name="invalid" oninput="print()">
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Suburb</td>
+                        <td>
+                            <input type="text" id="suburb-name" name="invalid" oninput="print()">
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Postcode</td>
+                        <td>
+                            <input type="text" id="postcode" name="invalid" oninput="print()">
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date of birth</td>
+                        <td>
+                            <input type="text" id="DOB" name="invalid" oninput="print()">
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Building type</td>
+                        <td>
+                            <select id="building-name" onchange="print()">
+                                <option value="Apartment" selected>Apartment</option>
+                                <option value="House">House</option>
+                            </select>
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Features</td>
+                        <td>
+                            <div onclick="print()">
+                                <input type="checkbox" name="feature" value="Headting">Headting<br>
+                                <input type="checkbox" name="feature" value="AirConditioning">AirConditioning<br>
+                                <input type="checkbox" name="feature" value="Pool">Pool<br>
+                                <input type="checkbox" name="feature" value="Sandpit">Sandpit<br>
+                                <button type="button" id="all" onclick="selectAll()">Select All</button><br>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <br>
+        <button type="button" id="reset" onclick="reset()">Reset</button><br>
+        <br>
+        <div id="output">
+            <textarea id="output-text" rows="8" cols="30"></textarea>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,295 @@
+
+/* base styles, feel free to edit */
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    height: 100%;
+    min-width: 400px;
+    min-height: 700px;
+    font-family: -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:white;
+    min-height: 60px;
+    border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+
+footer {
+    border-top: 1px solid rgba(0,0,0,.0975);
+    padding: 10px;
+    background-color:white;
+    min-height: 60px;
+    text-align: right;
+}
+
+.banner > *, footer > * {
+    margin: 10px 25px;
+}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: auto;
+    padding: 5px;
+    display: inline;
+    list-style-type: none;
+}
+
+/* Add your styles here */
+.make-centre {
+    display: flex;
+    justify-content: center;
+}
+
+.add-space {
+    margin-right: 5px;
+}
+
+.add-left-padding {
+    padding-left: 5px;
+}
+
+.centre {
+    margin: auto;
+    width: 50%;
+    border: 4px solid rgb(193, 233, 193);
+    background-color: whitesmoke;
+    padding: 10px 20px 20px 20px;
+}
+
+.register {
+    display: none;
+    margin: auto;
+    width: 50%;
+    border: 4px solid rgb(193, 233, 193);
+    background-color: whitesmoke;
+    padding: 10px 20px 20px 20px;
+}
+
+.button-centre {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.button-size {
+    font-size: 18px;
+    padding: 6px;
+}
+
+.addleft-margin-14px {
+    margin-left: 14px;
+}
+  
+.err-screen {
+    margin: auto;
+    width: 50%;
+    padding: 10px 20px 20px 20px;
+    display: none;
+}
+
+.close-button {
+    background-color: red;
+    font-size: 20px;
+    margin: auto;
+    border: 0;
+    width: 50%;
+    opacity: 0.8;
+}
+
+.submit-button {
+    background-color: rgb(71, 187, 71);
+    font-size: 20px;
+    border: 0;
+    margin: auto;
+    width: 50%;
+    opacity: 0.8;
+}
+
+.submit-button:hover {
+    opacity: 1;
+}
+
+.close-button:hover {
+    opacity: 1;
+}
+
+.add-border {
+    border: 3px solid #f1f1f1;
+}
+
+.feed {
+    display: none;
+    background-color: antiquewhite;
+    height: 850px;
+    min-width: 400px;
+    min-height: 700px;
+    overflow: scroll;
+}
+.header {
+    display: none;
+    background-color: antiquewhite;
+}
+
+.post-box {
+    border: 3px;
+    margin: 5px;
+    background-color:cornflowerblue;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding: 40px 20px; /* Location of the box */
+    word-wrap: break-word;
+    left: 0;
+    top: 0;
+    margin: auto;
+    width: 50%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fafafa;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    width: 80%;
+    border: 3px solid grey;
+}
+
+.modal-font {
+    font-size: 20px;
+    width: 85%;
+    color: #f1f1f1;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    padding-right: 40px;
+    font-weight: bold;
+}
+
+.success-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+  
+.close:hover, .close:focus, .success-close:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fa {
+    font-size: 50px !important;
+    cursor: pointer;
+    width: fit-content;
+  }
+  
+.fa:hover {
+    font-size: 60px !important;
+    color: red;
+}
+
+.info-click {
+    cursor: pointer;
+    width: fit-content;
+}
+
+.image-block {
+    display: block;
+}
+
+.info-click:hover {
+    color: rgb(250, 150, 35);
+}
+
+.success-modal {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    margin: auto;
+    color: greenyellow;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.lefthalf {
+    width: 50%;
+    padding-left: 5px;
+}
+
+.righthalf {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5px;
+}
+
+.file-chosen {
+    height: 50px;
+    width: 90%;
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+.textarea {
+    width: 90%;
+    height: 40%;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.post-btn {
+    background-color: lawngreen;
+    height: 50px;
+    width: 91%;
+    font-size: 40px;
+    margin-top: 20px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.post-btn:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.preview-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.input-size {
+    height: 50px;
+    width: 90%;
+    font-size: 40px;
+    margin-top: 20px;
+}
